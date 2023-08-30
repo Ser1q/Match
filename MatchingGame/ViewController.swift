@@ -76,7 +76,7 @@ class ViewController: UIViewController {
             
         }
         
-        if counter == 16{
+        if counter == 15{
             let alert = UIAlertController(title: "You won!", message: nil, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .default, handler:{
                 UIAlertAction in
